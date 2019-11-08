@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/DavidYunGitHub/portfolio.git/static/css/main.cc3da096.chunk.css",
+    "main.js": "/DavidYunGitHub/portfolio.git/static/js/main.dd500d44.chunk.js",
+    "main.js.map": "/DavidYunGitHub/portfolio.git/static/js/main.dd500d44.chunk.js.map",
+    "runtime-main.js": "/DavidYunGitHub/portfolio.git/static/js/runtime-main.e0c7b5be.js",
+    "runtime-main.js.map": "/DavidYunGitHub/portfolio.git/static/js/runtime-main.e0c7b5be.js.map",
+    "static/css/2.559fd73f.chunk.css": "/DavidYunGitHub/portfolio.git/static/css/2.559fd73f.chunk.css",
+    "static/js/2.f34befb3.chunk.js": "/DavidYunGitHub/portfolio.git/static/js/2.f34befb3.chunk.js",
+    "static/js/2.f34befb3.chunk.js.map": "/DavidYunGitHub/portfolio.git/static/js/2.f34befb3.chunk.js.map",
+    "index.html": "/DavidYunGitHub/portfolio.git/index.html",
+    "precache-manifest.54744b97a6d445e429b6198f24a41879.js": "/DavidYunGitHub/portfolio.git/precache-manifest.54744b97a6d445e429b6198f24a41879.js",
+    "service-worker.js": "/DavidYunGitHub/portfolio.git/service-worker.js",
+    "static/css/2.559fd73f.chunk.css.map": "/DavidYunGitHub/portfolio.git/static/css/2.559fd73f.chunk.css.map",
+    "static/css/main.cc3da096.chunk.css.map": "/DavidYunGitHub/portfolio.git/static/css/main.cc3da096.chunk.css.map",
+    "static/media/David Yun Resume.pdf": "/DavidYunGitHub/portfolio.git/static/media/David Yun Resume.d9b51b30.pdf",
+    "static/media/David.png": "/DavidYunGitHub/portfolio.git/static/media/David.2fa5163b.png",
+    "static/media/NASA_Project.png": "/DavidYunGitHub/portfolio.git/static/media/NASA_Project.7d88e419.png",
+    "static/media/gardenia.png": "/DavidYunGitHub/portfolio.git/static/media/gardenia.c19ee099.png",
+    "static/media/groupproject2.jpg": "/DavidYunGitHub/portfolio.git/static/media/groupproject2.d0b42812.jpg",
+    "static/media/heroesvsvillans.jpg": "/DavidYunGitHub/portfolio.git/static/media/heroesvsvillans.2fe431c7.jpg",
+    "static/media/profile.jpg": "/DavidYunGitHub/portfolio.git/static/media/profile.bddc7d8a.jpg",
+    "static/media/resume_ss.png": "/DavidYunGitHub/portfolio.git/static/media/resume_ss.e8646482.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0c7b5be.js",
+    "static/css/2.559fd73f.chunk.css",
+    "static/js/2.f34befb3.chunk.js",
+    "static/css/main.cc3da096.chunk.css",
+    "static/js/main.dd500d44.chunk.js"
+  ]
+}
