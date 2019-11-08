@@ -12,7 +12,7 @@ render() {
         <Layout>
             <Header className="header-color" title="David Yun Portfolio" scroll>
                 <Navigation>
-                    <Link to="/portfolio">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
@@ -20,7 +20,7 @@ render() {
             </Header>
             <Drawer title="David Yun Portfolio">
                 <Navigation>
-                    <Link to="/portfolio">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/resume">Resume</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
