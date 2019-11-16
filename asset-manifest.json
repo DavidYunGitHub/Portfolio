@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cc3da096.chunk.css",
-    "main.js": "/portfolio/static/js/main.6b6d9c8d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6b6d9c8d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.29da4bdb.chunk.css",
+    "main.js": "/portfolio/static/js/main.cd34ed97.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cd34ed97.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8ecab1cc.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8ecab1cc.js.map",
     "static/css/2.559fd73f.chunk.css": "/portfolio/static/css/2.559fd73f.chunk.css",
-    "static/js/2.f34befb3.chunk.js": "/portfolio/static/js/2.f34befb3.chunk.js",
-    "static/js/2.f34befb3.chunk.js.map": "/portfolio/static/js/2.f34befb3.chunk.js.map",
+    "static/js/2.5485f84d.chunk.js": "/portfolio/static/js/2.5485f84d.chunk.js",
+    "static/js/2.5485f84d.chunk.js.map": "/portfolio/static/js/2.5485f84d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.64a2896016fa2f9fc8c25215c1eb5ea3.js": "/portfolio/precache-manifest.64a2896016fa2f9fc8c25215c1eb5ea3.js",
+    "precache-manifest.d56e34e6e4594610f98f1d5e9eeb5286.js": "/portfolio/precache-manifest.d56e34e6e4594610f98f1d5e9eeb5286.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.559fd73f.chunk.css.map": "/portfolio/static/css/2.559fd73f.chunk.css.map",
-    "static/css/main.cc3da096.chunk.css.map": "/portfolio/static/css/main.cc3da096.chunk.css.map",
+    "static/css/main.29da4bdb.chunk.css.map": "/portfolio/static/css/main.29da4bdb.chunk.css.map",
     "static/media/David Yun Resume.pdf": "/portfolio/static/media/David Yun Resume.d9b51b30.pdf",
     "static/media/David.png": "/portfolio/static/media/David.2fa5163b.png",
     "static/media/NASA_Project.png": "/portfolio/static/media/NASA_Project.7d88e419.png",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.65e45e09.png",
+    "static/media/compassclock.png": "/portfolio/static/media/compassclock.435a38d4.png",
     "static/media/gardenia.png": "/portfolio/static/media/gardenia.c19ee099.png",
     "static/media/groupproject2.jpg": "/portfolio/static/media/groupproject2.d0b42812.jpg",
     "static/media/heroesvsvillans.jpg": "/portfolio/static/media/heroesvsvillans.2fe431c7.jpg",
@@ -25,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.8ecab1cc.js",
     "static/css/2.559fd73f.chunk.css",
-    "static/js/2.f34befb3.chunk.js",
-    "static/css/main.cc3da096.chunk.css",
-    "static/js/main.6b6d9c8d.chunk.js"
+    "static/js/2.5485f84d.chunk.js",
+    "static/css/main.29da4bdb.chunk.css",
+    "static/js/main.cd34ed97.chunk.js"
   ]
 }
