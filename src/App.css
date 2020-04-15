@@ -62,7 +62,11 @@
 
 .projects-grid {
     display: flex;
-}
+} 
+
+.projects-grid2 {
+    display: flex;
+} 
 
 .contact-body {
     margin: auto;

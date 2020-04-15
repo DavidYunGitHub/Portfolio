@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import Pdf from "../resume/David Yun Resume.pdf";
-import Screenshoot from "../images/resume_ss.png";
+import Screenshoot from "../images/resume.png";
 import { Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import { pathToFileURL } from 'url';
 

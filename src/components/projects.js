@@ -4,6 +4,10 @@ import Nasa from "../images/NASA_Project.png";
 import Chat from "../images/groupproject2.jpg";
 import Super from "../images/heroesvsvillans.jpg";
 import Gardenia from "../images/gardenia.png";
+import Calculator from "../images/calculator.png";
+import Compass from "../images/compassclock.png";
+import Tictactoe   from "../images/tictactoe.png";
+import Recipe from "../images/recipe.png";
 
 
 class Projects extends Component {
@@ -75,10 +79,10 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+ 
         </div>
 
-
-      )
+      ) 
     // } else if(this.state.activeTab === 1) {
     //   return (
     //     <div><h1>This is Angular</h1></div>
@@ -92,8 +96,80 @@ class Projects extends Component {
     //     <div><h1>This is MongoDB</h1></div>
     //   )
     // }
-      }
+    }
   }
+
+    toggleCategories2() {
+
+      if(this.state.activeTab === 0){
+        return(
+          <div className="projects-grid2">
+            {/* Project 5 */}
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(' +Calculator + ') center / cover'}} >Calcualtor</CardTitle>
+              <CardText>
+                Calculator application created with React. Basic functions such as add, subtract, multiple, divide, etc.  
+              </CardText>
+              <CardActions border>
+                <Button colored><a href="https://github.com/DavidYunGitHub/calculator.git" rel="noopener noreferrer" target="_blank">GitHub</a></Button>
+                <Button colored><a href="https://reactapp-calculator.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+
+             {/* Project 6 */}
+             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(' +Compass + ') center / cover'}} >Compass Clock</CardTitle>
+              <CardText>
+                A clock that rotates like a compass. Displays information such as seconds, minutes, hours, date, etc. Built with React.
+              </CardText>
+              <CardActions border>
+                <Button colored><a href="https://github.com/DavidYunGitHub/compassclock.git" rel="noopener noreferrer" target="_blank">GitHub</a></Button>
+                <Button colored><a href="https://compassclock.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+
+            {/* Project 7 */}
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(' +Tictactoe + ') center / cover'}} >TicTacToe</CardTitle>
+              <CardText>
+                Tic Tac Toe game built with React. Basic game, can be played with 2 players or against the AI. Game can be reset after game is over.
+              </CardText>
+              <CardActions border>
+                <Button colored><a href="https://github.com/DavidYunGitHub/tictactoe.git" rel="noopener noreferrer" target="_blank">GitHub</a></Button>
+                <Button colored><a href="https://tictactoe-project-react.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+
+            {/* Project 8 */}
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(' +Recipe + ') center / cover'}} >Recipe</CardTitle>
+              <CardText>
+                Recipe application built with React. User can search for certain recipes and display ingredients.
+              </CardText>
+              <CardActions border>
+                <Button colored><a href="https://github.com/DavidYunGitHub/recipe-project.git" rel="noopener noreferrer" target="_blank">GitHub</a></Button>
+                <Button colored><a href="https://davidyungithub.github.io/recipe-project/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+
+          </div>
+        )
+        }
+    }
+    
+    
 
 
 
@@ -111,6 +187,10 @@ class Projects extends Component {
           <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
+            </Cell>
+
+            <Cell col={12}>
+              <div className="content">{this.toggleCategories2()}</div>
             </Cell>
           </Grid>
 
